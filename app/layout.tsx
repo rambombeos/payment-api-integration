@@ -24,16 +24,11 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <>
-            <html lang="en">
-                <body
-                    className={`${geistSans.variable} ${geistMono.variable} antialiased `}
-                >
-                    <TQueryClientProviders>
-                        {children}
-                    </TQueryClientProviders>
-                </body>
-            </html>
-        </>
+        <html lang="en">
+            <body className={`${geistSans.variable} ${geistMono.variable}`}>
+                <TQueryClientProviders>{children}</TQueryClientProviders>
+            </body>
+        </html>
     );
+   
 }
