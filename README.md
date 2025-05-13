@@ -57,5 +57,5 @@ For detailed deployment instructions, refer to the [Next.js deployment documenta
 
 ## About This Project
 
-This project is designed to help developers quickly set up and integrate payment APIs into their web applications. It provides a robust starting point for building secure and scalable payment solutions.
+This project is designed to help developers quickly set up and integrate payment APIs into their web applications. It provides a robust starting point for building secure and scalable payment solutions in a way.
 
